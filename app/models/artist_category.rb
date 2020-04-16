@@ -1,0 +1,2 @@
+class ArtistCategory < ApplicationRecord
+end
