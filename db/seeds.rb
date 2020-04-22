@@ -1,6 +1,3 @@
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-
 artists = Artist.create!(name: "Gertrude", description: "spoken word", bio: "lives in chicago", image: "", approved: true, highlighted: false)
 artists = Artist.create!(name: "Gretchen ", description: "unique earrings", bio: "lives in bay area", image: "", approved: true, highlighted: false)
 artists = Artist.create!(name: "Gabriela ", description: "acrylic paintings", bio: "lives in Indonesia", image: "", approved: true, highlighted: false)
