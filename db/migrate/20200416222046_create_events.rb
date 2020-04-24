@@ -5,7 +5,6 @@ class CreateEvents < ActiveRecord::Migration[6.0]
       t.string :date
       t.string :location
       t.text :description
-      t.integer :artist_id
 
       t.timestamps
     end
