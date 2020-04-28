@@ -5,5 +5,8 @@ Rails.application.routes.draw do
     get "/artists" => "artists#index"
     get "/artists/:id" => "artists#show"
     post "/artists" => "artists#create"
+
+    get "/events" => "events#index"
+    get "/events/:id" => "events#show"
   end
 end

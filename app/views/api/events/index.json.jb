@@ -1,0 +1,9 @@
+@events.map do |event|
+  {
+    id: event.id,
+    name: event.name,
+    date: event.date,
+    location: event.location,
+    description: event.description,
+  }
+end
