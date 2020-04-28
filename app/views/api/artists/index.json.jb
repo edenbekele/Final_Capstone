@@ -1,0 +1,9 @@
+@artists.map do |artist|
+  {
+    id: artist.id,
+    name: artist.name,
+    description: artist.description,
+    bio: artist.bio,
+    image: artist.image,
+  }
+end

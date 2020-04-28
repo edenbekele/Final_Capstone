@@ -1,0 +1,7 @@
+{
+  id: @artist.id,
+  name: @artist.name,
+  description: @artist.description,
+  bio: @artist.bio,
+  image: @artist.image,
+}
