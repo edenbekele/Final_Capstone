@@ -1,0 +1,9 @@
+@artist_events.map do |artist_event|
+  {
+    id: artist_event.id,
+    status: artist_event.status,
+    user_id: artist_event.user_id,
+    artist_id: artist_event.artist_id,
+    event_id: artist_event.event_id,
+  }
+end
