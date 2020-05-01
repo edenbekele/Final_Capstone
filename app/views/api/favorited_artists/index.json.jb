@@ -1,0 +1,8 @@
+@favorited_artists.map do |favorited_artist|
+  {
+    id: favorited_artist.id,
+    status: favorited_artist.status,
+    user_id: favorited_artist.user_id,
+    artist_id: favorited_artist.artist_id,
+  }
+end
