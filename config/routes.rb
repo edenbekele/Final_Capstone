@@ -7,6 +7,9 @@ Rails.application.routes.draw do
     get "/artists/:id" => "artists#show"
     post "/artists" => "artists#create"
 
+    get "/categories" => "categories#index"
+    get "/categories/:id" => "categories#show"
+
     get "/favorited_artists" => "favorited_artists#index"
     post "/favorited_artists" => "favorited_artists#create"
 
