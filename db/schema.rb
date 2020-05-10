@@ -33,7 +33,6 @@ ActiveRecord::Schema.define(version: 2020_04_24_005845) do
 
   create_table "artists", force: :cascade do |t|
     t.string "name"
-    t.string "cateory"
     t.text "description"
     t.text "bio"
     t.string "image"
