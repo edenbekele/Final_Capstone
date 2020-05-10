@@ -2,4 +2,12 @@
   id: @category.id,
   name: @category.name,
   image: @category.image,
+  artists: @category.artists.map do |artist|
+    {
+      id: artist.id,
+      name: artist.name,
+      description: artist.description,
+      image: artist.image,
+    }
+  end,
 }
