@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 
     get "/favorited_artists" => "favorited_artists#index"
     post "/favorited_artists" => "favorited_artists#create"
+    delete "/favorited_artists/:id" => "favorited_artists#destroy"
+    delete "/unfavorite/:artist_id" => "favorited_artists#unfavorite"
 
     get "/events" => "events#index"
     get "/events/:id" => "events#show"

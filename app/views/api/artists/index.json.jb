@@ -5,5 +5,7 @@
     description: artist.description,
     bio: artist.bio,
     image: artist.image,
+    favorited: current_user.artists.include?(artist),
+
   }
 end
