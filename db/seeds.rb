@@ -22,8 +22,8 @@ FavoritedArtist.create!(status: "favorited", user_id: 2, artist_id: 1)
 FavoritedArtist.create!(status: "favorited", user_id: 2, artist_id: 4)
 FavoritedArtist.create!(status: "favorited", user_id: 3, artist_id: 1)
 
-Event.create!({ name: "farmer's market", date: Date.new(2020, 06, 25), location: "bay area", description: "support local vendors" })
-Event.create!({ name: "open mic", date: Date.new(2020, 06, 13), location: "Chicago", description: "view a variety of artists" })
+Event.create!({ name: "farmer's market", date: Date.new(2020, 06, 25), location: "bay area", description: "support local vendors", image: "image1" })
+Event.create!({ name: "open mic", date: Date.new(2020, 06, 13), location: "Chicago", description: "view a variety of artists", image: "image2" })
 
 ArtistEvent.create!(status: "saved", user_id: 1, event_id: 1, artist_id: 2)
 ArtistEvent.create!(status: "saved", user_id: 2, event_id: 2, artist_id: 4)
