@@ -5,5 +5,11 @@
   bio: @artist.bio,
   image: @artist.image,
   favorited: current_user.artists.include?(@artist),
-
+  category: @artist.categories.map do |category|
+    {
+      id: category.id,
+      name: category.name,
+      image: category.image,
+    }
+  end,
 }
