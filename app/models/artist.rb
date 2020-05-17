@@ -10,4 +10,5 @@ class Artist < ApplicationRecord
   has_many :categories, through: :artist_categories
 
   has_many :artist_events
+  has_many :images
 end

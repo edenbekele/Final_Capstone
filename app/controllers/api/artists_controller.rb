@@ -17,6 +17,7 @@ class Api::ArtistsController < ApplicationController
       description: params[:description],
       bio: params[:bio],
       image: params[:image],
+      user_id: current_user.id,
     )
     if @artist.save
       render "show.json.jb"

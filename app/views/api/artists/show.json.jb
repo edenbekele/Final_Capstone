@@ -4,6 +4,7 @@
   description: @artist.description,
   bio: @artist.bio,
   image: @artist.image,
+  images: @artist.images,
   favorited: current_user.artists.include?(@artist),
   category: @artist.categories.map do |category|
     {

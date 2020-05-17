@@ -1,0 +1,13 @@
+{
+  id: @user.id,
+  name: @user.name,
+  email: @user.email,
+  artists: @user.artists.map do |artist|
+    {
+      id: artist.id,
+      name: artist.name,
+      description: artist.description,
+      image: artist.image,
+    }
+  end,
+}
