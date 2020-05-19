@@ -11,4 +11,5 @@ class Artist < ApplicationRecord
 
   has_many :artist_events
   has_many :images
+  has_many :songs
 end

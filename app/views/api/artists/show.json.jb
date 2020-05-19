@@ -5,6 +5,7 @@
   bio: @artist.bio,
   image: @artist.image,
   images: @artist.images,
+  songs: @artist.songs,
   favorited: current_user.artists.include?(@artist),
   category: @artist.categories.map do |category|
     {

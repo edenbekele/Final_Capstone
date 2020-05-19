@@ -14,11 +14,14 @@ If you would like to see more of my art and support my craft you can visit my ar
 
 Artist.create!({ name: "Alexandra Leigh", description: "Quarantine has pulled out some poetry from a normally far less emotional writer.", bio: "Alexandra is usually daydreaming in Colorado or Chicago but loves to take her headphones, notebook, and camera to new cities, countries, and continents when she can. She really loves writing about the intersections of culture, music, feminism, and what the world would look like with a little more compassion.", image: "Alex2.png", approved: true, highlighted: false })
 
-Artist.create!({ name: "Daniella Hope", description: "Musician; Singer-Songwriter; Poet; Actor: Dancer; Limitless. Stepping. Into. Her. Power. Day. By. Day.", bio: "Daniella Hope is from the South Side of Chicago where she currently resides as a freelance artist, teaching kids by day and performing at night. Daniella began her career in the Chicago Children's Choir through which she was able to perform around the world in places including, Italy, South Africa, and India. She has worked with artists including Chance the Rapper, and performed alongside artists including Bobby McFerrin, Sweet Honey and the Rock, Al Greene, Kurt Elling, and Yo-Yo Ma. A recent graduate of Oberlin College and Conservatory, Daniella received two degrees from the institution and became the first person to graduate with a BM in Jazz Voice from Oberlin Conservatory. Recently, Daniella was accepted into Manhattan School of Music's graduate program where she plans to further her education studying jazz voice and immersing herself into the artist scenes of New York City.", image: "Daniella1.png", approved: true, highlighted: false })
+Artist.create!({ name: "Daniella Hope", description: "Musician; Singer-Songwriter; Poet; Actor: Dancer; Limitless. Stepping. Into. Her. Power. Day. By. Day.", bio: "Daniella Hope is from the South Side of Chicago where she currently resides as a freelance artist, teaching kids by day and performing at night. Daniella began her career in the Chicago Children's Choir through which she was able to perform around the world in places including, Italy, South Africa, and India. She has worked with artists including Chance the Rapper, and performed alongside artists including Bobby McFerrin, Sweet Honey and the Rock, Al Greene, Kurt Elling, and Yo-Yo Ma. A recent graduate of Oberlin College and Conservatory, Daniella received two degrees from the institution and became the first person to graduate with a BM in Jazz Voice from Oberlin Conservatory. Recently, Daniella was accepted into Manhattan School of Music's graduate program where she plans to further her education studying jazz voice and immersing herself into the artist scenes of New York City.", image: "Daniella3.png", approved: true, highlighted: false })
 
 Image.create!(artist_id: 1, image: "poetry.png")
+Image.create!(artist_id: 1, image: "Gertrude.png")
 Image.create!(artist_id: 2, image: "jewelry.png")
+Image.create!(artist_id: 2, image: "Gretchen.png")
 Image.create!(artist_id: 3, image: "baking.png")
+Image.create!(artist_id: 3, image: "Anne1.png")
 Image.create!(artist_id: 4, image: "Justice1.png")
 Image.create!(artist_id: 4, image: "Justice2.png")
 Image.create!(artist_id: 4, image: "Justice3.png")
@@ -33,7 +36,8 @@ Image.create!(artist_id: 7, image: "Daniella1.png")
 Image.create!(artist_id: 7, image: "Daniella2.png")
 Image.create!(artist_id: 7, image: "Daniella3.png")
 Image.create!(artist_id: 7, image: "Daniella4.png")
-Image.create!(artist_id: 7, image: "Daniella5.mp3")
+
+Song.create!(artist_id: 7, name: "Forever", file: "Daniella5.mp3")
 
 Category.create!(name: "Food", image: "baking.png")
 Category.create!(name: "Decorative Arts", image: "categoryJewels.png")
