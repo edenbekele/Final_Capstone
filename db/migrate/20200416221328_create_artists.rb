@@ -5,6 +5,8 @@ class CreateArtists < ActiveRecord::Migration[6.0]
       t.text :description
       t.text :bio
       t.string :image
+      t.string :instagram
+      t.string :website
       t.boolean :approved
       t.boolean :highlighted
 

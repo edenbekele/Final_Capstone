@@ -36,6 +36,8 @@ ActiveRecord::Schema.define(version: 2020_05_19_040229) do
     t.text "description"
     t.text "bio"
     t.string "image"
+    t.string "instagram"
+    t.string "website"
     t.boolean "approved"
     t.boolean "highlighted"
     t.datetime "created_at", precision: 6, null: false

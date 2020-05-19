@@ -4,6 +4,8 @@
   description: @artist.description,
   bio: @artist.bio,
   image: @artist.image,
+  instagram: @artist.instagram,
+  website: @artist.website,
   images: @artist.images,
   songs: @artist.songs,
   favorited: current_user.artists.include?(@artist),

@@ -5,7 +5,8 @@
     description: artist.description,
     bio: artist.bio,
     image: artist.image,
+    instagram: artist.instagram,
+    website: artist.website,
     favorited: current_user.artists.include?(artist),
-
   }
 end
