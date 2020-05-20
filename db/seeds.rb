@@ -59,7 +59,7 @@ FavoritedArtist.create!(status: "favorited", user_id: 2, artist_id: 4)
 FavoritedArtist.create!(status: "favorited", user_id: 3, artist_id: 1)
 
 Event.create!({ name: "Art Show", date: Date.new(2020, 06, 25), location: "2341 N Milwaukee Ave, Chicago, IL 60647", description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.", image: "gallery.png" })
-Event.create!({ name: "open mic", date: Date.new(2020, 06, 13), location: "3520 W Fullerton Ave, Chicago, IL 60647", description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", image: "openMic.png" })
+Event.create!({ name: "Open Mic", date: Date.new(2020, 06, 13), location: "3520 W Fullerton Ave, Chicago, IL 60647", description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", image: "openMic.png" })
 
 ArtistEvent.create!(status: "saved", user_id: 1, event_id: 1, artist_id: 2)
 ArtistEvent.create!(status: "saved", user_id: 2, event_id: 2, artist_id: 4)
