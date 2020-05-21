@@ -12,7 +12,7 @@ class Api::UsersController < ApplicationController
     end
   end
 
-  def show
+  def my_artists
     @user = User.find_by(id: current_user.id)
     render "show.json.jb"
   end

@@ -2,7 +2,7 @@
   {
     id: event.id,
     name: event.name,
-    date: event.date,
+    date: event.date.gsub("-", "/"),
     location: event.location,
     description: event.description,
     image: event.image,
