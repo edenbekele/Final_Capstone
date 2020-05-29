@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     post "/sessions" => "sessions#create"
 
     get "/artists" => "artists#index"
+    get "/artists/new" => "artists#new"
     get "/artists/:id" => "artists#show"
     post "/artists" => "artists#create"
 
