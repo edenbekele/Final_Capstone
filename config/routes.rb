@@ -10,6 +10,7 @@ Rails.application.routes.draw do
     get "/artists/new" => "artists#new"
     get "/artists/:id" => "artists#show"
     post "/artists" => "artists#create"
+    delete "/artists/:id" => "artists#destroy"
 
     get "/categories" => "categories#index"
     get "/categories/:id" => "categories#show"
