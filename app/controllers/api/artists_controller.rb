@@ -17,10 +17,9 @@ class Api::ArtistsController < ApplicationController
       description: params[:description],
       bio: params[:bio],
       image: params[:image],
-      user_id: current_user.id,
     )
     if @artist.save
-      render "show.json.jb"
+      render json: @artist
     else
       render json: { errors: @artist.errors.full_messages }, status: :unprocessable_entity
     end

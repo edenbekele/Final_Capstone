@@ -1,6 +1,8 @@
 class Artist < ApplicationRecord
   validates :name, presence: true
   validates :description, presence: true
+  validates :bio, presence: true
+  validates :image, presence: true
 
   has_many :favorited_artists
   has_many :users, through: :favorited_artists

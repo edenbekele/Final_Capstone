@@ -7,6 +7,6 @@
     image: artist.image,
     instagram: artist.instagram,
     website: artist.website,
-    favorited: current_user.artists.include?(artist),
+    favorited: current_user ? current_user.artists.include?(artist) : false,
   }
 end
