@@ -4,6 +4,8 @@ Rails.application.routes.draw do
     # get "/users/:id" => "users#show"
     get "/my_artists" => "users#my_artists"
 
+    get "/admin" => "users#admin"
+
     post "/sessions" => "sessions#create"
 
     get "/artists" => "artists#index"
