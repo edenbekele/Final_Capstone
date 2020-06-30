@@ -10,4 +10,14 @@
       image: artist.image,
     }
   end,
+  events: @user.events.map do |event|
+    {
+      id: event.id,
+      name: event.name,
+      date: event.date,
+      location: event.location,
+      description: event.description,
+      image: event.image,
+    }
+  end,
 }

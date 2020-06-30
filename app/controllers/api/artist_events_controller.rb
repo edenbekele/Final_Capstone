@@ -5,10 +5,10 @@ class Api::ArtistEventsController < ApplicationController
   end
 
   def create
-    @artist_event = ArtistEvent.new(
+    @artist_event = ArtistEvent.find_or_initialize_by(
       status: "saved",
       user_id: current_user.id,
-      artist_id: params[:artist_id],
+      # artist_id: params[:artist_id],
       event_id: params[:event_id],
     )
     if @artist_event.save
